@@ -1,0 +1,79 @@
+.home {
+    background-image: url(./img/Rectangle\ 3.jpg);
+    height: 600px;
+    background-size: cover;
+}
+
+.home-p {
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.home-plan {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.f-4 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.card-img-top {
+    display: flex;
+    justify-content: center;
+}
+
+.card-image {
+    width: 18rem;
+}
+
+.truck-main {
+    border: none;
+}
+
+.transpont {
+    background-image: url(./img/image\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-img-steve {
+    background-image: url(./img/image\ 6.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.choose {
+    background-image: url(./img/image\ 4.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.seirvice {
+    background-image: url(./img/image\ 5.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mind {
+    background-image: url(./img/image\ 12.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: hue;
+    background-color: rgba(240, 248, 255, 0.395);
+}
+
+.footer {
+    background-image: url(./img/Vector\ 1.jpg);
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-item{
+ line-height: 24px;
+}

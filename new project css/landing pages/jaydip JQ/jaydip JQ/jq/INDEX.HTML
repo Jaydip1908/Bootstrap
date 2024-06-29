@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>jquery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="box">
+      <h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam error
+        necessitatibus magnam.
+      </h1>
+
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta,
+        corrupti doloribus a, tenetur quidem temporibus quis magnam ut commodi
+        quasi recusandae nostrum assumenda fuga, dignissimos illum quisquam
+        laborum reprehenderit voluptatem excepturi molestias necessitatibus
+        magni iste sint minima. Illum libero temporibus velit. Dignissimos
+        eaque, animi voluptatum recusandae possimus libero beatae quisquam.
+      </p>
+    </div>
+    <script src="./code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script>
+
+        // KERYPRESS
+    //   $(document).ready(function(){
+    //      $("body").keypress(function(){
+    //       $(this).css("background-color","red")
+    //      });
+    //   });
+
+    //   $(document).ready(function(){
+    //      $("body").keydown(function(){
+    //       $(this).css("background-color","yellow")
+    //      });
+    //   });
+
+    //   $(document).ready(function(){
+    //      $("body").keyup(function(){
+    //       $(this).css("background-color","green")
+    //      });
+    //   });
+    //   keypress end
+
+    // mouse 
+
+    $(document).ready(function(){
+         $("body").click(function(){
+          $(this).css("background-color","yellow")
+         });
+      });
+
+      $(document).ready(function(){
+         $("body").dblclick(function(){
+          $(this).css("background-color","gray")
+         });
+      });
+
+      $(document).ready(function(){
+         $("body").contextmenu(function(){
+          $(this).css("background-color","black")
+         });
+      });
+
+      $(document).ready(function(){
+         $("body").mouseover(function(){
+          $(this).css('font-size','20px')
+         });
+      });
+
+
+
+
+
+
+    </script> 
+  </body>
+</html>

@@ -1,0 +1,23 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+@media only screen and (max-width: 1440px) {
+    .item{
+        color: rgb(136, 223, 7);
+    }
+    .section-1{
+        height: 800px;
+    }
+    .cuddle{
+        color: black;
+        font-size: 22px;
+    }
+    .button{
+        background-color: #c79b44;
+    }
+    .section-3{
+        background-color: rgb(82, 49, 58);
+        background :  linear-gradient( rgb(199, 161, 161) rgb(203, 203, 119) );
+    }
+}
